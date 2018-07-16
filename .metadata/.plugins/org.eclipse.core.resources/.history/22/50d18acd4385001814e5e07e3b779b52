@@ -1,0 +1,8 @@
+package br.com.caelum.estoque.modelo.usuario;
+
+public class AutenticacaoException extends Exception {
+	
+	public AutenticacaoException(String msg) {
+		super(msg);
+	}
+}

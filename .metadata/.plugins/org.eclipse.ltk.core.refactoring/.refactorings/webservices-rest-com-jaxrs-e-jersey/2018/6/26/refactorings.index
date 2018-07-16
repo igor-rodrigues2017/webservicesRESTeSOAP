@@ -1,0 +1,3 @@
+1530369213944	Move package
+1530383184973	Convert local variable 'server' to field
+1530383513496	Extract method 'inicializaServidor'

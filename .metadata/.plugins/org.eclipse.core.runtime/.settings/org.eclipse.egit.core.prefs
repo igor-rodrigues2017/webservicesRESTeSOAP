@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=/home/igor/eclipse-workspace/estudo-webservice/webservices-soap-jaxws/.git\:/home/igor/eclipse-workspace/estudo-webservice/webservices-rest-com-jaxrs-e-jersey/.git\:
+GitRepositoriesView.GitDirectories.relative=webservices-soap-jaxws/.git\:webservices-rest-com-jaxrs-e-jersey/.git\:
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

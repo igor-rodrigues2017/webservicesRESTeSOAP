@@ -1,0 +1,20 @@
+package br.com.caelum.estoque.modelo.usuario;
+
+import java.util.Date;
+
+public class InfoFault {
+	
+	private String msg;
+	private Date dateError;
+	
+	public InfoFault(String msg, Date dateError) {
+		this.msg = msg;
+		this.dateError = dateError;
+	}
+	
+	//JAX-B precisa
+	public InfoFault() {
+		
+	}
+
+}

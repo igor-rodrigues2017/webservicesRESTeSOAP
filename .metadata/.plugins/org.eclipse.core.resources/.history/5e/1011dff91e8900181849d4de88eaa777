@@ -1,0 +1,18 @@
+package br.com.caelum.estoque.cliente;
+
+import java.util.Arrays;
+
+public class TestaSoap {
+
+	public static void main(String[] args) {
+		
+		EstoqueWS cliente = new EstoqueWS_Service().getEstoqueWSPort();
+		
+		Filtro filtro = new Filtro();
+		filtro.setNome("IPhone");
+		filtro.setTipo(TipoItem.CELULAR);
+
+		ListaItens lista = cliente.todosOsItens(Arrays.<Filtro>asList(filtro));
+	}
+
+}

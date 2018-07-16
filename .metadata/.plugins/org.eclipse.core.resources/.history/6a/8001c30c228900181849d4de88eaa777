@@ -1,0 +1,27 @@
+package br.com.caelum.correios.soap;
+
+import java.math.BigDecimal;
+
+public class TesteClienteCorreios {
+
+	public static void main(String[] args) {
+		
+		CalcPrecoPrazoWSSoap cliente = new CalcPrecoPrazoWS().getCalcPrecoPrazoWSSoap();
+		String codigoSedex = "40010";
+		String cepOrigemCaelumSP = "04101300"; //Caelum SP
+		String cepDestino = "20040030"; // Caelum RJ
+		String peso3kg = "3";
+		BigDecimal comprimento20cm = new BigDecimal(20);
+		BigDecimal altura10cm = new BigDecimal(10);
+		BigDecimal largura15cm = new BigDecimal(15);
+		BigDecimal diametro10cm = new BigDecimal(10);
+		int formatoEncomendaCaixa = 1; // 1 é caixa ou pacote
+		BigDecimal semValorDeclarado= BigDecimal.ZERO;
+		String semEntregueEmMaos = "N";
+		String semAvisoRecebimento = "N";
+		String semCodigoEmpresa = "";
+		String semSenhaEmpresa = "";
+		
+	}
+
+}
